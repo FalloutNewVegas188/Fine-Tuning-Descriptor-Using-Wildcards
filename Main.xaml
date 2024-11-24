@@ -1,0 +1,141 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1510,1474" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1409" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Test_11 - Word" sap:VirtualizedContainerService.HintSize="484,1298" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="84d92223-8c01-419d-846d-da74b3b3f068" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1007" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="388,179" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="84d92223-8c01-419d-846d-da74b3b3f068" Shortcuts="[d(hk)][d(ctrl)]h[u(ctrl)][u(hk)]" Version="V3" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Find what'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="84d92223-8c01-419d-846d-da74b3b3f068" Text="  " Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="103, 72, 430, 14" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'RichEdit20W'" FullSelectorArgument="&lt;wnd cls='RichEdit20W' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RichEdit20W' /&gt;" Guid="ea9e29f8-c4fc-417c-a6cc-6934c5b7ef8f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbIAAAASCAYAAAA+GFtGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVHhe7d2xCQAhFAXB67+V4yJLsAPBPkwM5R+W8WCmiQ33eb9WAJBmrVVzzhIyACLdiO29hQyATGOMOucIGQCZhAyAaEIGQDQhAyCakAEQTcgAiCZkAEQTMgCiCRkA0YQMgGhCBkA0IQMgmpABEE3IAIhm4wJAtDvW7L3XD2KdgYreKwUcAAAAAElFTkSuQmCC" InformativeScreenshot="3d4000e14f8c4d144e953932a7190bb5.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='bosa_sdm_msword' title='Find and Replace' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="23, 72, 69, 13" ElementType="Text" FriendlyName="'Find what'" FullSelectorArgument="&lt;ctrl name='Find what:' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Find what:' role='text' automationid='' check:text='Find what:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAARCAYAAACRroFGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVFhH7ZTdFYMgDIUdK/tkHKZhGIbxKU1SwIiAtNo+tDx850h+uHolLOu60qTPNGmAadIA06QBpkkDGJM84bLQYgAXYhzJm6YxpA/IhVrujHd6r+j1KUy6U+SvTLLx+OywOG22Np5ExOp+Hm1Poel5X/RbvKoTyEHUyHGjm2J5r7j3Bbrjhj7FrUmcS+LyImYUdwZo7mhScLDrB4Dcs/X3dTakLsXtezKfM+n4Uft4WTOaMwRHED/MI+c9r8FR0BMyuJealn5mq+c+vm9SNoPz2Rw2TczTda3XrMWgal1L7zo3mvS8K87GTZCRs2Mma+Q7LPf2dOwY7TSKHlt3kRtNYnSU4hg0Lm5FPy7deZV1V0ee6xpyp0lczf6MSZMWL5mkf69Brf5XmCdpgGnSKSs9AFB+dTFHCLECAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Replace with'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="84d92223-8c01-419d-846d-da74b3b3f068" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="103, 132, 430, 14" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'RichEdit20W'" FullSelectorArgument="&lt;wnd cls='RichEdit20W' idx='2' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RichEdit20W' /&gt;" Guid="6f51dbaa-f231-4fae-a471-afb5b9cfaea9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAbIAAAASCAYAAAA+GFtGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB/SURBVHhe7d2xCQAhFAXB67+V4yJLsAPBPkwM5R+W8WCmiQ33eb9WAJBmrVVzzhIyACLdiO29hQyATGOMOucIGQCZhAyAaEIGQDQhAyCakAEQTcgAiCZkAEQTMgCiCRkA0YQMgGhCBkA0IQMgmpABEE3IAIhm4wJAtDvW7L3XD2KdgYreKwUcAAAAAElFTkSuQmCC" InformativeScreenshot="0929f66a572e84ce0c92bbcd9b7d150b.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='bosa_sdm_msword' title='Find and Replace' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="23, 132, 69, 13" ElementType="Text" FriendlyName="'Replace with'" FullSelectorArgument="&lt;ctrl name='Replace with:' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Replace with:' role='text' automationid='' check:text='Replace with:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAARCAYAAACRroFGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVFhH7VTRkcUgCExZ9mM5VmMxFpMvD1R05dQk7+buzbzzY2eCCAsr5DjPM26ssUW6gS3SDWyRbmCLdAMgko/2OOIBsL6//Aycz0QXRr6/APPb6Os31vKsNiUSBHpLQgnJK3i3SIjfEinZKBLbZcqshzOKcSyonj7MF6IzbUKNC+WO3Bvl1WcN3mIO5CHw46YYOYdchBxXfFB3zVfjSz7CVKTgTDyMi6H4ubAsADcs90oBkrSbvj5fA5838TmvLmrM1ZBqA05Dd6TJJiDy61oWdV+LlFVN6C4qHyE3MSKfFJYKkfhZ8XI24gIEF01pyluK92SnB9UPOOO5sntMJimvx3h1ECsy+GaB6lRO7kxzjiBi0N0qDonG4t3iubJ7zP9J8FoiWvsPCDimnfcrCvlwhNNECc8o74yrB3PhmrFtLa1ejcN+tAgL+3rdMFA1nUSTFRDxcoylke/XqPmyzd8llhr5XqD4SnFDLoWyvnXata36Sf8+8mcRe19nr0V6BZrsM/GxIuUpzBj5n+CHIv0PbJEuccYv73kTRuHxy+kAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <Literal x:TypeArguments="x:String" Value="" />
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Replace All'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84d92223-8c01-419d-846d-da74b3b3f068" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="307, 188, 76, 24" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Replace All'" FullSelectorArgument="&lt;ctrl name='Replace All' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Replace All' role='push button' automationid='' check:text='Replace All' /&gt;" Guid="c71ea361-12a5-4c56-8ba6-6f3f56089077" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFAAAAAcCAYAAAD2izi6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAITSURBVGhD7ZhNjsIwDEbnwr1Gz5FjVCBxBSKxRGyJYM2moMqTL02p89cptKNBIy+eBGliOy8uSPlq25aE9xGBCxGBC0kE3m43Oh6PdDgcSGsteE6nk3MT+woEYgLEGWPo8XhQ13WCBS4ul4tzE0sMBMLy9XrNBhE6Op/P7u3kzgKBaNX7/Z5dLHTODbqQO0sE5hYKI3DEnYnAFxGBC1lBoCZVVVQxlM7Nmwvi1dSY3LOVMA3VSQ6ed34NKwlkybSyEhXpZN5cfl+gaWpSSlHdGDb+KQLddy4Q3313qiGeX9NAdty1PJ6hph47O91wLm48FoOYqM/OrRsyz3Gel3+eZnWBON2KFabVIAeF8wLZJoOuLRWP8fFgEDeWlM8VgdfXrxvnA563VEPKSgL9qScnHz2z9AXHBU4U7+QO66c2WMoVEkhD7Ge9EzVMsHIH9q9c/lQ58XiheGzw2c2FOcWYOTAnlJzv/DmxelYWaHH/cENRvdDwtwv0GxnGw9eexeMd4jpxyJOLW8rFCDquZ+zITxFoCYQ4ofnTVsrOc+N8fbwRv9b+a4Z5+DNfZzbXSPib53lKjfOGeyqxgsB3mF/gpyMCF/JHAv8PkwJxVSPXWWXgZlIgLgtxaZhbLHTuVhqXztxZIHC40sdE6cQRuEBj/XilDzABbbrdbmmz2QiW3W5H+/0+kQcSgcJriMCFiMBFtPQNTuMrtzcET7YAAAAASUVORK5CYII=" InformativeScreenshot="a8bb69795edd1ad62bd0de5b7f05d9c8.png" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='bosa_sdm_msword' title='Find and Replace' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="2044, 230, 1440, 753" Arguments="c:\users\philiplin\onedrive - medcor revenue services, inc\documents\uipath\fine tuning descriptor using wildcards\test_11.docx" FilePath="C:\Program Files\Microsoft Office\root\Office16\winword.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHJSURBVFhH7ZcvSENRFMZfkyE+LIoaNOkQwSAzOIOoiFHUIGgxGFZkxTLQothEEISJUVBEWDIsLSwsiOADlQUFkQXDgiIiBsNx3+XecSf3+p6PM5DhDz7YPds55+Pcs3/OP36MHz97FVGd5Mk2dgxJrJJt7JiSOCXb2DElcUq2sWNK4pRsYye+XyQ/jabvjcWDyOlYzHkVURh1LZ1TfyItTJiKBxEMGIsHVed0iqLJHA2s34TS3zGg6FvJV4uXyh8iNpwsVGMKdWYzcPv4JgrPbV2J82TqQpxB8qBYEysUX/gNnOafRPGdzIM4H2ZL4gyyl2URgxGA51Qem4GNoztRXDVTEwGv758ipkypiUBsBjB6gHvHnQOYgCGwvHstRg9wFewGIAWuAWAq+tgVeo4bW6X22bOa2G9UY0AfO8Ak8K4AuAagLyDEakAtIoAZFdeN6QsIsRpQiwjw2BTXFxBiNaAWEeiLpn8m6HGI1UAYNYSB0F/HbTMnFOmdJ3dkk1rH9kJJ/uyw09Q9QVb1TFEkulBfA82DCfKTG982Fg8i2cZOy9Aa/SQ3ljIWDirZxo4piVOyjR1TEqdkGzuVF3nfkxjl/9eswXGcL2IzjE/x0LYjAAAAAElFTkSuQmCC" InformativeScreenshot="e9a8586402d1013a2b4e124343aa22e9.png" IsExactTitleEnabled="True" Selector="&lt;wnd app='winword.exe' cls='OpusApp' title='* - Word' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
